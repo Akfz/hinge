@@ -1,0 +1,80 @@
+[
+{
+  "directory": "/home/yaxzlol/hinge/out/build/1",
+  "command": "/usr/bin/clang++ -DCPPHTTPLIB_BROTLI_SUPPORT -DCPPHTTPLIB_OPENSSL_SUPPORT -DCPPHTTPLIB_ZLIB_SUPPORT -DWEB_DIR=\\\"/home/yaxzlol/hinge/web\\\" -I/home/yaxzlol/hinge/src -I/home/yaxzlol/hinge/out/build/1/_deps/json-src/include -isystem /home/yaxzlol/hinge/out/build/1/_deps/httplib-src  -pthread -g -std=gnu++20 -Wall -Wextra -Wpedantic -o CMakeFiles/HingeCpp.dir/src/core/auth/MicrosoftAuthService.cpp.o -c /home/yaxzlol/hinge/src/core/auth/MicrosoftAuthService.cpp",
+  "file": "/home/yaxzlol/hinge/src/core/auth/MicrosoftAuthService.cpp",
+  "output": "CMakeFiles/HingeCpp.dir/src/core/auth/MicrosoftAuthService.cpp.o"
+},
+{
+  "directory": "/home/yaxzlol/hinge/out/build/1",
+  "command": "/usr/bin/clang++ -DCPPHTTPLIB_BROTLI_SUPPORT -DCPPHTTPLIB_OPENSSL_SUPPORT -DCPPHTTPLIB_ZLIB_SUPPORT -DWEB_DIR=\\\"/home/yaxzlol/hinge/web\\\" -I/home/yaxzlol/hinge/src -I/home/yaxzlol/hinge/out/build/1/_deps/json-src/include -isystem /home/yaxzlol/hinge/out/build/1/_deps/httplib-src  -pthread -g -std=gnu++20 -Wall -Wextra -Wpedantic -o CMakeFiles/HingeCpp.dir/src/core/download/MinecraftService.cpp.o -c /home/yaxzlol/hinge/src/core/download/MinecraftService.cpp",
+  "file": "/home/yaxzlol/hinge/src/core/download/MinecraftService.cpp",
+  "output": "CMakeFiles/HingeCpp.dir/src/core/download/MinecraftService.cpp.o"
+},
+{
+  "directory": "/home/yaxzlol/hinge/out/build/1",
+  "command": "/usr/bin/clang++ -DCPPHTTPLIB_BROTLI_SUPPORT -DCPPHTTPLIB_OPENSSL_SUPPORT -DCPPHTTPLIB_ZLIB_SUPPORT -DWEB_DIR=\\\"/home/yaxzlol/hinge/web\\\" -I/home/yaxzlol/hinge/src -I/home/yaxzlol/hinge/out/build/1/_deps/json-src/include -isystem /home/yaxzlol/hinge/out/build/1/_deps/httplib-src  -pthread -g -std=gnu++20 -Wall -Wextra -Wpedantic -o CMakeFiles/HingeCpp.dir/src/core/download/VanillaManifestService.cpp.o -c /home/yaxzlol/hinge/src/core/download/VanillaManifestService.cpp",
+  "file": "/home/yaxzlol/hinge/src/core/download/VanillaManifestService.cpp",
+  "output": "CMakeFiles/HingeCpp.dir/src/core/download/VanillaManifestService.cpp.o"
+},
+{
+  "directory": "/home/yaxzlol/hinge/out/build/1",
+  "command": "/usr/bin/clang++ -DCPPHTTPLIB_BROTLI_SUPPORT -DCPPHTTPLIB_OPENSSL_SUPPORT -DCPPHTTPLIB_ZLIB_SUPPORT -DWEB_DIR=\\\"/home/yaxzlol/hinge/web\\\" -I/home/yaxzlol/hinge/src -I/home/yaxzlol/hinge/out/build/1/_deps/json-src/include -isystem /home/yaxzlol/hinge/out/build/1/_deps/httplib-src  -pthread -g -std=gnu++20 -Wall -Wextra -Wpedantic -o CMakeFiles/HingeCpp.dir/src/core/install/InstallLock.cpp.o -c /home/yaxzlol/hinge/src/core/install/InstallLock.cpp",
+  "file": "/home/yaxzlol/hinge/src/core/install/InstallLock.cpp",
+  "output": "CMakeFiles/HingeCpp.dir/src/core/install/InstallLock.cpp.o"
+},
+{
+  "directory": "/home/yaxzlol/hinge/out/build/1",
+  "command": "/usr/bin/clang++ -DCPPHTTPLIB_BROTLI_SUPPORT -DCPPHTTPLIB_OPENSSL_SUPPORT -DCPPHTTPLIB_ZLIB_SUPPORT -DWEB_DIR=\\\"/home/yaxzlol/hinge/web\\\" -I/home/yaxzlol/hinge/src -I/home/yaxzlol/hinge/out/build/1/_deps/json-src/include -isystem /home/yaxzlol/hinge/out/build/1/_deps/httplib-src  -pthread -g -std=gnu++20 -Wall -Wextra -Wpedantic -o CMakeFiles/HingeCpp.dir/src/core/java/JavaService.cpp.o -c /home/yaxzlol/hinge/src/core/java/JavaService.cpp",
+  "file": "/home/yaxzlol/hinge/src/core/java/JavaService.cpp",
+  "output": "CMakeFiles/HingeCpp.dir/src/core/java/JavaService.cpp.o"
+},
+{
+  "directory": "/home/yaxzlol/hinge/out/build/1",
+  "command": "/usr/bin/clang++ -DCPPHTTPLIB_BROTLI_SUPPORT -DCPPHTTPLIB_OPENSSL_SUPPORT -DCPPHTTPLIB_ZLIB_SUPPORT -DWEB_DIR=\\\"/home/yaxzlol/hinge/web\\\" -I/home/yaxzlol/hinge/src -I/home/yaxzlol/hinge/out/build/1/_deps/json-src/include -isystem /home/yaxzlol/hinge/out/build/1/_deps/httplib-src  -pthread -g -std=gnu++20 -Wall -Wextra -Wpedantic -o CMakeFiles/HingeCpp.dir/src/core/log/LogBuffer.cpp.o -c /home/yaxzlol/hinge/src/core/log/LogBuffer.cpp",
+  "file": "/home/yaxzlol/hinge/src/core/log/LogBuffer.cpp",
+  "output": "CMakeFiles/HingeCpp.dir/src/core/log/LogBuffer.cpp.o"
+},
+{
+  "directory": "/home/yaxzlol/hinge/out/build/1",
+  "command": "/usr/bin/clang++ -DCPPHTTPLIB_BROTLI_SUPPORT -DCPPHTTPLIB_OPENSSL_SUPPORT -DCPPHTTPLIB_ZLIB_SUPPORT -DWEB_DIR=\\\"/home/yaxzlol/hinge/web\\\" -I/home/yaxzlol/hinge/src -I/home/yaxzlol/hinge/out/build/1/_deps/json-src/include -isystem /home/yaxzlol/hinge/out/build/1/_deps/httplib-src  -pthread -g -std=gnu++20 -Wall -Wextra -Wpedantic -o CMakeFiles/HingeCpp.dir/src/core/minecraft/MinecraftLauncher.cpp.o -c /home/yaxzlol/hinge/src/core/minecraft/MinecraftLauncher.cpp",
+  "file": "/home/yaxzlol/hinge/src/core/minecraft/MinecraftLauncher.cpp",
+  "output": "CMakeFiles/HingeCpp.dir/src/core/minecraft/MinecraftLauncher.cpp.o"
+},
+{
+  "directory": "/home/yaxzlol/hinge/out/build/1",
+  "command": "/usr/bin/clang++ -DCPPHTTPLIB_BROTLI_SUPPORT -DCPPHTTPLIB_OPENSSL_SUPPORT -DCPPHTTPLIB_ZLIB_SUPPORT -DWEB_DIR=\\\"/home/yaxzlol/hinge/web\\\" -I/home/yaxzlol/hinge/src -I/home/yaxzlol/hinge/out/build/1/_deps/json-src/include -isystem /home/yaxzlol/hinge/out/build/1/_deps/httplib-src  -pthread -g -std=gnu++20 -Wall -Wextra -Wpedantic -o CMakeFiles/HingeCpp.dir/src/core/modloader/ModloaderInstaller.cpp.o -c /home/yaxzlol/hinge/src/core/modloader/ModloaderInstaller.cpp",
+  "file": "/home/yaxzlol/hinge/src/core/modloader/ModloaderInstaller.cpp",
+  "output": "CMakeFiles/HingeCpp.dir/src/core/modloader/ModloaderInstaller.cpp.o"
+},
+{
+  "directory": "/home/yaxzlol/hinge/out/build/1",
+  "command": "/usr/bin/clang++ -DCPPHTTPLIB_BROTLI_SUPPORT -DCPPHTTPLIB_OPENSSL_SUPPORT -DCPPHTTPLIB_ZLIB_SUPPORT -DWEB_DIR=\\\"/home/yaxzlol/hinge/web\\\" -I/home/yaxzlol/hinge/src -I/home/yaxzlol/hinge/out/build/1/_deps/json-src/include -isystem /home/yaxzlol/hinge/out/build/1/_deps/httplib-src  -pthread -g -std=gnu++20 -Wall -Wextra -Wpedantic -o CMakeFiles/HingeCpp.dir/src/core/profile/ProfileManager.cpp.o -c /home/yaxzlol/hinge/src/core/profile/ProfileManager.cpp",
+  "file": "/home/yaxzlol/hinge/src/core/profile/ProfileManager.cpp",
+  "output": "CMakeFiles/HingeCpp.dir/src/core/profile/ProfileManager.cpp.o"
+},
+{
+  "directory": "/home/yaxzlol/hinge/out/build/1",
+  "command": "/usr/bin/clang++ -DCPPHTTPLIB_BROTLI_SUPPORT -DCPPHTTPLIB_OPENSSL_SUPPORT -DCPPHTTPLIB_ZLIB_SUPPORT -DWEB_DIR=\\\"/home/yaxzlol/hinge/web\\\" -I/home/yaxzlol/hinge/src -I/home/yaxzlol/hinge/out/build/1/_deps/json-src/include -isystem /home/yaxzlol/hinge/out/build/1/_deps/httplib-src  -pthread -g -std=gnu++20 -Wall -Wextra -Wpedantic -o CMakeFiles/HingeCpp.dir/src/core/settings/SettingsStore.cpp.o -c /home/yaxzlol/hinge/src/core/settings/SettingsStore.cpp",
+  "file": "/home/yaxzlol/hinge/src/core/settings/SettingsStore.cpp",
+  "output": "CMakeFiles/HingeCpp.dir/src/core/settings/SettingsStore.cpp.o"
+},
+{
+  "directory": "/home/yaxzlol/hinge/out/build/1",
+  "command": "/usr/bin/clang++ -DCPPHTTPLIB_BROTLI_SUPPORT -DCPPHTTPLIB_OPENSSL_SUPPORT -DCPPHTTPLIB_ZLIB_SUPPORT -DWEB_DIR=\\\"/home/yaxzlol/hinge/web\\\" -I/home/yaxzlol/hinge/src -I/home/yaxzlol/hinge/out/build/1/_deps/json-src/include -isystem /home/yaxzlol/hinge/out/build/1/_deps/httplib-src  -pthread -g -std=gnu++20 -Wall -Wextra -Wpedantic -o CMakeFiles/HingeCpp.dir/src/main.cpp.o -c /home/yaxzlol/hinge/src/main.cpp",
+  "file": "/home/yaxzlol/hinge/src/main.cpp",
+  "output": "CMakeFiles/HingeCpp.dir/src/main.cpp.o"
+},
+{
+  "directory": "/home/yaxzlol/hinge/out/build/1",
+  "command": "/usr/bin/clang++ -DCPPHTTPLIB_BROTLI_SUPPORT -DCPPHTTPLIB_OPENSSL_SUPPORT -DCPPHTTPLIB_ZLIB_SUPPORT -DWEB_DIR=\\\"/home/yaxzlol/hinge/web\\\" -I/home/yaxzlol/hinge/src -I/home/yaxzlol/hinge/out/build/1/_deps/json-src/include -isystem /home/yaxzlol/hinge/out/build/1/_deps/httplib-src  -pthread -g -std=gnu++20 -Wall -Wextra -Wpedantic -o CMakeFiles/HingeCpp.dir/src/web/CommandRegistry.cpp.o -c /home/yaxzlol/hinge/src/web/CommandRegistry.cpp",
+  "file": "/home/yaxzlol/hinge/src/web/CommandRegistry.cpp",
+  "output": "CMakeFiles/HingeCpp.dir/src/web/CommandRegistry.cpp.o"
+},
+{
+  "directory": "/home/yaxzlol/hinge/out/build/1",
+  "command": "/usr/bin/clang++ -DCPPHTTPLIB_BROTLI_SUPPORT -DCPPHTTPLIB_OPENSSL_SUPPORT -DCPPHTTPLIB_ZLIB_SUPPORT -DWEB_DIR=\\\"/home/yaxzlol/hinge/web\\\" -I/home/yaxzlol/hinge/src -I/home/yaxzlol/hinge/out/build/1/_deps/json-src/include -isystem /home/yaxzlol/hinge/out/build/1/_deps/httplib-src  -pthread -g -std=gnu++20 -Wall -Wextra -Wpedantic -o CMakeFiles/HingeCpp.dir/src/web/WebHelper.cpp.o -c /home/yaxzlol/hinge/src/web/WebHelper.cpp",
+  "file": "/home/yaxzlol/hinge/src/web/WebHelper.cpp",
+  "output": "CMakeFiles/HingeCpp.dir/src/web/WebHelper.cpp.o"
+}
+]
