@@ -1537,11 +1537,15 @@ const logFilters = { info: true, warn: true, error: true };
 function setConsoleOpen(open) {
     const dock = document.getElementById('consoleDock');
     dock.classList.toggle('collapsed', !open);
+
     if (open) {
         const h = LS.get('hinge.console.height', 260);
         if (h > 60) dock.style.height = h + 'px';
         scrollConsoleBottom();
+    } else {
+        dock.style.height = '';
     }
+
     LS.set('hinge.console.open', open);
 }
 
@@ -1626,6 +1630,8 @@ document.querySelectorAll('.console-filters input').forEach(chk => {
     let startY = 0, startH = 0, resizing = false;
 
     handle.addEventListener('mousedown', (e) => {
+        if (dock.classList.contains('collapsed')) setConsoleOpen(true);
+
         resizing = true;
         startY = e.clientY;
         startH = dock.getBoundingClientRect().height;
@@ -1638,7 +1644,6 @@ document.querySelectorAll('.console-filters input').forEach(chk => {
         const delta = startY - e.clientY;
         const h = Math.max(80, Math.min(window.innerHeight - 100, startH + delta));
         dock.style.height = h + 'px';
-        dock.classList.remove('collapsed');
     });
 
     window.addEventListener('mouseup', () => {

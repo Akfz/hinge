@@ -2,18 +2,11 @@
 
 #include <filesystem>
 
-#if defined(_WIN32)
-    extern "C" __declspec(dllimport)
-    unsigned long __stdcall GetModuleFileNameA(
-        void* hModule,
-        char* lpFilename,
-        unsigned long nSize);
-
-    #ifndef MAX_PATH
-        #define MAX_PATH 260
-    #endif
-#elif defined(__APPLE__)
+#ifdef _WIN32
+    #include "compat/windows_prelude.h"
+#elif __APPLE__
     #include <mach-o/dyld.h>
+    #include <vector>
 #else
     #include <unistd.h>
     #include <limits.h>
@@ -24,7 +17,7 @@ namespace hinge::core::util {
 inline std::filesystem::path getExecutablePath() {
 #ifdef _WIN32
     char buf[MAX_PATH];
-    unsigned long n = GetModuleFileNameA(nullptr, buf, MAX_PATH);
+    DWORD n = GetModuleFileNameA(nullptr, buf, MAX_PATH);
     if (n > 0 && n < MAX_PATH)
         return std::filesystem::path(std::string(buf, n));
     return {};
